@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="name"
+      placeholder="Digite o nome do veiculo"
+      autocomplete="off"
+    />
+    <input
+      type="text"
+      id="placa"
+      placeholder="Digite a placa do veiculo"
+      autocomplete="off"
+    />
+    <button id="cadastrar">Cadastrar</button>
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Placa</th>
+          <th>Entrada</th>
+          <th>Acao</th>
+        </tr>
+      </thead>
+      <tbody id="patio"></tbody>
+    </table>
+    <script type="module" src="./dist/script.js"></script>
+  </body>
+</html>
