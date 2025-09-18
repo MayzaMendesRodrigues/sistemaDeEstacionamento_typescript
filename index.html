@@ -3,35 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
   </head>
-  <body>
-    <input
-      type="text"
-      id="name"
-      placeholder="Digite o nome do veiculo"
-      autocomplete="off"
-    />
-    <input
-      type="text"
-      id="placa"
-      placeholder="Digite a placa do veiculo"
-      autocomplete="off"
-    />
-    <button id="cadastrar">Cadastrar</button>
-
-    <table>
-
-      <thead>
-        <tr>
-          <th>Nome</th>
-          <th>Placa</th>
-          <th>Entrada</th>
-          <th>Acao</th>
-        </tr>
-      </thead>
-      <tbody id="patio"></tbody>
-    </table>
+   <body>
+    <div class="container">
+      <header>
+        <h1>Controle de Veículos</h1>
+        <p>Cadastre e gerencie os veículos no pátio</p>
+      </header>
+      
+      <div class="form-container">
+        <input
+          type="text"
+          id="name"
+          placeholder="Digite o nome do veículo"
+          autocomplete="off"
+        />
+        <input
+          type="text"
+          id="placa"
+          placeholder="Digite a placa do veículo"
+          autocomplete="off"
+        />
+        <button id="cadastrar">Cadastrar</button>
+      </div>
+      
+      <div id="statusMessage" class="status-message"></div>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody id="patio"></tbody>
+      </table>
+    </div>
+    
     <script type="module" src="./dist/script.js"></script>
   </body>
 </html>
