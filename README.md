@@ -1,3 +1,4 @@
+![Capa](https://github.com/user-attachments/assets/2d41de05-f2bc-4077-9b2c-17baea87b494)
 
 # Sistema de Controle de Estacionamento
 
